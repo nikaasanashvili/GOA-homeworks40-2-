@@ -2,7 +2,7 @@
 # my_name="nika"
 # user_name=input("emter your name: ")
 # my_age=17
-# print((my_name) +" "+ (user_name) +" "+ (str(my_age)))
+# print(my_name +" "+ user_name +" "+ str(my_age))
 
 
 
@@ -16,7 +16,7 @@
 
 # ```3)კომენტარის სახით ახსენით რა არის კონკატინაცია და მოიყვანეთ მაგალითები```
 # კონკატინაცია არის სტრინგების გაერთიანება მაგლიტად ასე
-# print((name) +" "+ (user_name))
+# print(name +" "+ user_name)
 
 # 4)შექმენით ცვლადები სადაც შეინახავთ სახელს გვარს ასაკს სიმაღლეს და საცხოვრებელ ადგილს,თქვენი დავალება იქნება გამოიტანოთ ეს ყველაფერი ერთ გრძელ წინადადებად გამოიყენეთ ნასწავლი მასალა int()
 #  str()... და კონკატენაცია
@@ -26,8 +26,8 @@
 # height=1.65
 # living_plaeis="tbilisi"
 
-# print("hi my name is" +" "+ (name) +" "+ "my surname is" +" "+ (surname) +""+ "i em" +" "+ str((age)) +" "+ "years olde" +" "+ "my height is" +" "+ str(height)
-#        +" "+ "i live in" +" "+ (living_plaeis))
+# print("hi my name is" +" "+ name +" "+ "my surname is" +" "+ surname +""+ "i em" +" "+ str(age) +" "+ "years olde" +" "+ "my height is" +" "+ str(height)
+#        +" "+ "i live in" +" "+ living_plaeis)
 
 # 5)მომხმარებელს შემოატანინეთ ავტომობილის სახელი,ავტომობილის ფერი,ავტომობილის ფასი და ასევე შემოატანინეთ ავტომობილის გამოშვების თარიღი და შენინახეთ ეს ყველაფერი ცვლადებში,input ებთან 
 # როგორც გასწავლეთ თ რიცხვი შემოაქვს მომხმარებელს გადააქციეთ ეს input ები ინტეჯერებად და ამის შემდეგ მოახდინეთ ამ ყველაფრის კონკატენაცია ანუ გამოიტანეთ მომხმარებლის მიერ შემოყვანილი 
@@ -36,7 +36,7 @@
 # car=input("chosen car: ")
 # car_color=input("car color: ")
 # car_prise=int(input("car prise: "))
-# print("sou you vant" +" "+ (car_color) +" "+ (car) +" "+ "end this car prise is" +" "+ str(car_prise))
+# print("sou you vant" +" "+ car_color +" "+ car +" "+ "end this car prise is" +" "+ str(car_prise))
 
 
 # 6)შექმენით 4 ცვლადი,ერთიში შეინახეთ ინტეჯერი,მეორეში სტრინგი,მესამეში ფლოუტი და მეოთხეში ბულეანის მნიშვნელობა
@@ -44,6 +44,7 @@
 # name="nika"
 # age=17
 # xurda=5.0
+# bool= 10 == 5
 
 
 # 7)მომხმარებელს შემოატანინეთ საცხოვრებელი ადგილი და საყვარელი ცხოველი
@@ -60,7 +61,7 @@
 # print(str(age))
 
 # my_age="10"
-# print(int(my_age) + (age))
+# print(int(my_age) + age)
 
 
 # 9)მომხმარებელს შემოატანინეთ ორი რიცხვი,თქვენი დავალებაა მოახდინოთ ყველა მათემატიკური ოპერაცია ამ რიცხვებზე, +,-./,//,*,==,%,ასევე კომენტარის სახით ახსენით რას აკეთებს % ნიშანი
