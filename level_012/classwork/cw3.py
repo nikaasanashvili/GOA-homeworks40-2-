@@ -3,11 +3,11 @@
 name=input("enter your name: ")
 
 def raodenoba(nam):
-    namer=["0","1","2","3","4","5","6","7", "8","9"]
-    caunt=0
-    for i in namer:
-        for a in nam:
-            if i == a:
-                caunt + 1
-    return caunt
+    djt="0123456789"
+    count=0
+    for i in name:
+        if i in djt:
+            count += 1
+    return count
+
 print(raodenoba(name))
