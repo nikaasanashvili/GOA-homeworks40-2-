@@ -5,8 +5,8 @@ name=(input("enter your name: "))
 def tire(name1):
     final_name=""
     for i in name1:
-        final_name += i
-        final_name += "-"
+        final_name = i  +'-'+ final_name 
+        
     return final_name
 print(tire(name))
 
