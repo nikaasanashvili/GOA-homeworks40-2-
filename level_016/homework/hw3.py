@@ -7,6 +7,5 @@ def my_name(user_name):
     while user_name != 'nika':
         user_name=input("enter your name: ")
         list.append(user_name)
-    print(len(list))
-    return list
+    return list , len(list)
 print(my_name(input("enter your name: ")))
