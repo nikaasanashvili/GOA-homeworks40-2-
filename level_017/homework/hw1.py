@@ -4,9 +4,12 @@
 def leters(name):
     name_1=''
     for i in name:
-        return i
+        print(i)
 
-
+    index=0
+    while index <= len(name):
+        print(name[index])
+        index += 1
 print(leters('nika'))
     
 

@@ -5,4 +5,5 @@
 def dashla(nam):
     nam1=int(nam)
     nam2= nam - nam1
+    return nam1, '+', nam2, '=', nam
 print(dashla(5.5))
