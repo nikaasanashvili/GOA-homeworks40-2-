@@ -4,3 +4,10 @@
     
 
 
+def split_str(name):
+    list=[]
+    splited_name = name.split()
+    for i in splited_name:
+        list.append(i.capitalize())
+    return " ".join(list)
+print(split_str('nika saba'))
