@@ -1,0 +1,19 @@
+.list{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+button{
+    width: 70px;
+    height: 30px;
+}
