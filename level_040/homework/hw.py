@@ -33,6 +33,12 @@
         
 
 
+# def high_and_low(numbers):
+#     int_nambers = numbers.split()
+#     final_list=[]
+#     for i in int_nambers:
+#         final_list.append(int(i))
+        
 #     max_nam = final_list[0]
 #     min_nam = final_list[0]
 #     for j in final_list:
@@ -42,6 +48,23 @@
 #             min_nam = j
     
 #     return f"{max_nam} {min_nam}"
+
+# def high_and_low(numbers):
+#     int_nambers = numbers.split()
+#     final_list=[]
+#     for i in int_nambers:
+#         final_list.append(int(i))
+        
+#     max_nam = final_list[0]
+#     min_nam = final_list[0]
+#     for j in final_list:
+#         if j > max_nam:
+#             max_nam = j
+#         elif j < min_nam:
+#             min_nam = j
+    
+#     return f"{max_nam} {min_nam}"
+            
 
 
 # def find_short(s):
