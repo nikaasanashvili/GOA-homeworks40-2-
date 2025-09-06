@@ -1,0 +1,16 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+#polo_div{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+#zara_div{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
