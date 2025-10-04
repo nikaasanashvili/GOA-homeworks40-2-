@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    background-color: red;
+    color: blue;
+    font: 20px;
+}
+
+h1{
+    background-color: green;
+    color: gold;
+    font-size: 40px;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+    background-color: blue;
+    color: red;
+    border: none;
+}

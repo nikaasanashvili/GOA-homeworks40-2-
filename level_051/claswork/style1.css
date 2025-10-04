@@ -1,0 +1,30 @@
+.h_1{
+    background-color: red;
+    color: blue;
+}
+
+.h_2{
+    background-color: green;
+    color: gold;
+}
+.h_3{
+    background-color: firebrick;
+    color: rgb(114, 42, 165);
+}
+.h_1_1{
+    font-size: 30px; 
+    background-color: rgb(136, 255, 0); 
+    color: rgb(107, 0, 128);
+}
+
+.h_2_1{
+    font-size: 30px;
+    background-color: red;
+    color: green;
+}
+
+.h_3_1{
+    font-size: 30px; 
+    background-color: rgb(64, 255, 0); 
+    color: rgb(0, 0, 128)
+}
