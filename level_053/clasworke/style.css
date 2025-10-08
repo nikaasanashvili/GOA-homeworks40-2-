@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+
+.otkutxedi_1{
+    background-color: rgb(255, 127, 39);
+}
+
+.wre{
+    border-radius: 100px;
+    background-color: rgb(136, 0, 21);
+}
+
+.otkutxedi{
+    border-radius: 20px;
+    background-color: rgb(255, 201, 13);
+}
