@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+}
+.wre{
+    border-radius: 100px;
+    background-color: red;
+}
+
+.kubi{
+    background-color: red;
+}
+
+.otxutxedi{
+    border-radius: 30px;
+    background-color: lightblue;
+}

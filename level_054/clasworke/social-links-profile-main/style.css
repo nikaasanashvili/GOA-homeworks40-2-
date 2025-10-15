@@ -1,0 +1,62 @@
+body{
+    padding-top: 100px;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: center;
+}
+
+#icon{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 400px;
+    height: 700px;
+}
+
+#header{
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    
+}
+img{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    color: white;
+}
+
+#name{
+    color: white;
+    font-size: 30px;
+}
+
+#p{
+    color: gray;
+}
+
+
+button{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(51, 51, 51);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+#place{
+    color: hsl(75, 94%, 57%)
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}

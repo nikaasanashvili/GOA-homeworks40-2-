@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#d1{
+    display: flex;
+    justify-content: center;
+
+}
+#sedan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    background-color: rgb(226, 134, 37);
+    border-radius: 10px 0px 0px 10px;
+}
+
+#suv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    background-color: rgb(0, 106, 113);
+}
+
+#luxury{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    background-color: rgb(0, 64, 62);
+    border-radius: 0px 10px 10px 0px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+p{
+   
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.664);
+  
+}
+
+#p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
