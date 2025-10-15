@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(213, 224, 239);
+    padding: 50px;
+}
+
+div{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
