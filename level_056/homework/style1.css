@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(100, 149, 237);
+    display: flex;
+}
+
+#d_1{
+    background-color: rgb(221, 108, 131);
+    width: 100px;
+    height: 100px;
+}
+
+#d_2{
+    background-color: rgb(70, 255, 210);
+    width: 100px;
+    height: 100px;
+}
+
+#d_3{
+    background-color: rgb(255, 191, 160);
+    width: 100px;
+    height: 100px;
+}

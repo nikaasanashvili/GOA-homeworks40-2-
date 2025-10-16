@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 300px;
+    width: 100px;
+    height: 100px;
+    background-color:  rgb(0, 0, 255);
+}
