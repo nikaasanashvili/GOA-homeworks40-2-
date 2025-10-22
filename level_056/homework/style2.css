@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgb(153, 93, 181);
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(247, 148, 31);
+}
