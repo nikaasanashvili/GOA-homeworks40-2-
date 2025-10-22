@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#otkutxedi{
+    background-color: rgb(255, 127, 39);
+    border-radius: 20px;
+}
+
+#wre{
+    background-color: yellow;
+    border-radius: 100px;
+}
