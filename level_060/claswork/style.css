@@ -1,0 +1,20 @@
+#p1{
+    color: green;
+    text-decoration: dotted line-through red;
+}
+
+#p2{
+    color: red;
+    text-decoration: overline dotted blue;
+}
+
+#p3{
+    color: purple;
+    text-decoration: overline line-through dotted blue;
+}
+
+
+#p4{
+    color: orange;
+    text-decoration: line-through underline double red;
+}

@@ -1,0 +1,26 @@
+#h1{
+    text-transform: capitalize;
+}
+
+#h2{
+    text-transform: uppercase;
+}
+
+#h3{
+    text-transform: lowercase;
+}
+
+
+
+#p1{
+    box-shadow: 1px 3px 1px red;    
+}
+
+#p2{
+    box-shadow: 1px 4px 1px green;
+}
+
+#p3{
+    box-shadow: 5px 1px 5px blue;
+}
+
