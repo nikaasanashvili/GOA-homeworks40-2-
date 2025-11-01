@@ -1,0 +1,23 @@
+#hw_1{
+    text-decoration: underline red;
+}
+
+#hw_2{
+    text-decoration: none;
+}
+
+#hw_2:hover{
+    text-decoration: underline orange;
+}
+#hw_3{
+    text-decoration: dashed overline underline;
+}
+
+#hw_4{
+    text-decoration:underline overline ;
+    text-decoration: line-through wavy blue;
+}
+
+#hw_5{
+    text-decoration: double line-through red;
+}
