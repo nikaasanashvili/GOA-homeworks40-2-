@@ -1,0 +1,14 @@
+.hw_1:hover{
+    color: green;
+    text-decoration: none;
+}
+
+.hw_1:active{
+    color: orange;
+    text-decoration: dashed overline purple;
+}
+
+.hw_2:visited{
+    color: red;
+    text-decoration: wavy line-through green;
+}
