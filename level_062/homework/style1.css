@@ -1,0 +1,36 @@
+
+.leading-zero {
+    list-style-type: decimal-leading-zero;
+}
+
+.numbers {
+    list-style-type: decimal;
+}
+
+.georgian {
+    list-style-type: georgian;
+}
+
+.upper-roman {
+    list-style-type: upper-roman;
+}
+
+.lower-roman {
+    list-style-type: lower-roman;
+}
+
+.upper-alpha {
+    list-style-type: upper-alpha;
+}
+
+.lower-alpha {
+    list-style-type: lower-alpha;
+}
+
+.armenian {
+    list-style-type: armenian;
+}
+
+.none {
+    list-style-type: none;
+}
