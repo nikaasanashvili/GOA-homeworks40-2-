@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+div{
+    margin-top: 10px;
+}
+#d_1{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#d_2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    padding: 50px;
+}

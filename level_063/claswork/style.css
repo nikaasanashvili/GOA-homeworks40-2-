@@ -1,0 +1,33 @@
+#user{
+    color: green;
+}
+#name{
+    background-color: purple;
+    border-radius: 10px;
+    color: red;
+    box-shadow: 1px 1px 1px  red;
+}
+#user_pas{
+    color: red;
+    font-size: 25px;
+}
+
+#pas{
+    background-color: yellow;
+    border-radius: 5px;
+    color: purple;
+    border: lightblue;
+    box-shadow: 1px 1px  1px  blue;
+}
+
+#emil{
+    background-color: orange;
+    border-radius: 7px;
+    color: blue;
+    box-shadow: 3px, 3px, 3px purple;
+}
+
+#user_emil{
+    color: blue;
+}
+
