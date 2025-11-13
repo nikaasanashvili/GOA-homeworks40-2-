@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(196, 252, 155);
+}
+
+input{
+    border-radius: 50px;
+    width: 200px;
+    height: 25px;
+    display: flex;
+
+    align-items: center;
+}

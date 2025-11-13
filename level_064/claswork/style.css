@@ -1,0 +1,13 @@
+#d_1{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    margin: 200px 100px;
+}
+
+#d_2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 50px 100px 200px 30px;
+}

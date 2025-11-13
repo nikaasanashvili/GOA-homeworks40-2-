@@ -1,0 +1,9 @@
+#p_1{
+    border:1px dashed red;
+    padding: 30px 50px;
+}
+
+#p_2{
+    border: 2px dotted blue;
+    padding: 10px 15px 20px 15px;
+}

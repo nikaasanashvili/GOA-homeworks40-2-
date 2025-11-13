@@ -1,0 +1,65 @@
+h1{
+    border: 1px solid red;
+    padding: 40px;
+}
+
+#b_1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 30px;
+    margin-right: 200px;
+}
+
+#b_2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    padding: 40px;
+}
+
+#hw_7_d_1{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px;
+}
+
+#hw_7_d_2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.hw_8{
+    width: 100px;
+    height: 100px;
+}
+
+#hw_8_d_1{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px dashed red;
+    padding: 10px;
+}
+
+#hw_8_d_2{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 20px dotted blue;
+    padding: 20px;
+}
+
+#hw_8_d_3{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border: 30px;
+    padding: 30px;   
+}
+
+
+

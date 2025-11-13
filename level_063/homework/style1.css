@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    background-color: rgb(255, 255, 159);
+    border: none;
+    height: 25px;
+    width: 200px;
+    box-shadow: -2px -2px 5px  black;
+}
