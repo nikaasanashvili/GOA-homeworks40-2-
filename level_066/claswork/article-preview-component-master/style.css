@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 242, 248);
+}
+
+#img_1{
+    border-radius: 10px 0px 0px 10px;
+    width: 300px;
+    height: 300px;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+h1{
+    font-size: 26px;
+    color: rgb(74, 73, 73);
+}
+
+#txt{
+    color: gray;
+    padding: 20px 0px;
+}
+
+p{
+    color: gray;
+}
+#avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+#info{
+    display: flex;
+    align-items: center;
+    gap: 140px;
+
+}
+#d{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#shear_d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(237, 239, 245);
+}
+
+h4{
+    color: rgb(84, 87, 101);
+    padding: 5px 0px;
+}
