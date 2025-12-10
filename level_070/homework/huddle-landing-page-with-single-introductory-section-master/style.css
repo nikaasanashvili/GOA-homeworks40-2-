@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/bg-desktop.svg);
+}
+
+#icon{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 50px;
+}
+
+
