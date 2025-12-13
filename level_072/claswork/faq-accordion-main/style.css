@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 238, 255);
+}
+
+#main_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 490px;
+    background-color: white;
+    border-radius: 10px;
+}
+#hed{
+    display: flex;
+    gap: 10px;
+}
+#icon{
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+}
+
+#hed_txt{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+P{
+    line-height: 25px;
+    color: rgb(149, 128, 154);
+}
+
+.minus{
+    height: 50px;
+    width: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
