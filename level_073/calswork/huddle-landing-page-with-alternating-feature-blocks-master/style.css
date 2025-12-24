@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Badeen+Display&family=Indie+Flower&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(237, 251, 254);
+    background-image: url(./images/bg-hero-desktop.svg);
+}
+#header{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#header_img{
+    width: 200px;
+    height: 30px;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+#header_buton{
+    width: 150px;
+    height: 35px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+}
+#header_buton:hover{
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+#header_divs{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+#content_img{
+    width: 650px;
+    height: 450px;
+}
+
+#hedaer_h{
+    line-height: 50px;
+}
+#content_button{
+    width: 220px;
+    height: 40px;
+    background-color: rgb(254, 82, 192);
+    
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+#content_button:hover{
+    background-color: rgb(255, 155, 219);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);    
+}
+
+#main_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 300px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);  
+    border-radius: 5px;  
+}
+
+.icon_img{
+    width: 200px;
+    height: 150px;
+}
+
+.icons_div{
+    display: flex;
+    gap: 100px;
+}
+
+.icons_p{
+    line-height: 22px;
+    color: rgb(132, 136, 139);
+}
+
+main{
+    padding: 100px 0px 100px 0px;
+}
+
+#buton_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 150px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    gap: 20px;
+}
+
+#m_f_d{
+    width: 250px;
+    height: 40px;
+    background-color: rgb(254, 82, 192);
+    border-radius: 30px;
+    border: none;
+    color: white;
+}
+
+#m_f_d:hover{
+    
+    box-shadow: 0px 4px 10px rgb(0,0,0,0.3);
+    background-color: rgb(255, 155, 219);
+}
+
+
+#footer{
+    background-color: rgb(0, 37, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    gap: 100px;
+}
+
+.footer_divs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact{
+    display: flex;
+    gap: 10px;
+}
+
+.f_p{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
