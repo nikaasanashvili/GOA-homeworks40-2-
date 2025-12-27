@@ -157,4 +157,51 @@ main{
     gap: 80px;
 }
 
+.dd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+#p_d{
+    padding: 30px 0px 50px 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 246, 248);
+    height: 20vh;    
+}
+
+#f_m_d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#footer_img{
+    width: 50px;
+    height: 50px;
+}
+
+#butons_div{
+    padding: 0px 0px 120px 0px;
+}
+
+.f_d{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#install{
+    padding: 0px 0px 40px 0px;
+}
+
+#contact{
+    display: flex;
+    gap: 20px;
+}
