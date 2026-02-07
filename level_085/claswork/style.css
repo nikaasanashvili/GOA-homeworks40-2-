@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+}
+
+#d_1{
+    transform: translateX(300px);
+    background-color: red;
+}
+
+#d_2{
+    transform: translateY(150px);
+    background-color: green;
+}
+
+#d_3{
+    transform: translate(100px -80px) ;
+    background-color: blue;
+}

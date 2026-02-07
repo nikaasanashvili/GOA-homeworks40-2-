@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#main{
+    position: relative;
+    width: 300px;
+    height: 300px
+}
+
+.d{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b{
+    background-color: blue;
+    z-index: 1;
+    top: 120px;
+    left: 0;
+}
+.g{
+    background-color: green;
+    top: 0;
+    left: 120px;
+    z-index: 4;
+}
+
+.y{
+    background-color: yellow;
+    top: 50px;
+    left: 80px;
+    z-index: 3;
+}
+
+.r{
+    background-color: red;
+    top: 90px;
+    left: 40px;
+    z-index: 2;
+}
