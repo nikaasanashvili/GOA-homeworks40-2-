@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#d_1{
+    width: 100px;
+    height: 100px;
+    translate: calc(120 70px);
+    background-color: red;
+}
+
+#d_1 :hover{
+    translate: calc(10px 15px);
+}
