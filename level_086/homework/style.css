@@ -1,0 +1,47 @@
+
+.rotate-x {
+    background: red;
+    transform: rotateX(30deg);
+}
+
+.rotate-y {
+    background: blue;
+    transform: rotateY(55deg);
+}
+
+
+.rotate-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.4s;
+}
+
+.rotate-btn:hover {
+    transform: rotate(90deg);
+}
+
+.hover-box {
+    width: 120px;
+    height: 120px;
+    background: green;
+    color: white;
+    transition: transform 0.4s;
+    margin: 20px;
+}
+
+.hover-box:hover {
+    transform: rotateX(60deg);
+}
+
+.origin {
+    width: 120px;
+    height: 120px;
+    background: purple;color: white;
+    margin: 20px;
+}
+
+    .center {
+    transform: rotate(45deg);
+}
+

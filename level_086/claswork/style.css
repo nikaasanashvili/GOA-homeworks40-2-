@@ -1,0 +1,21 @@
+#i_1{
+    transform: rotateX(40deg);
+}
+
+#i_2{
+    transform: rotateY(70deg);
+}
+
+#i_3{
+    transform: rotate(75deg);
+}
+
+#i_4{
+    transform-origin: top right; 
+    transform: rotate(140deg);     
+}
+  
+#i_5{
+    transform-origin: bottom left; 
+    transform: rotate(245deg);    
+}

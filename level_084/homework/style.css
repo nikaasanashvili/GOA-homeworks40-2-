@@ -1,0 +1,35 @@
+/* 1) ცენტრში, არ გამეორდეს */
+.d_1{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 2) ერთხელ გამოჩნდეს და არ გამეორდეს */
+.d_2{
+    background-image: url("");
+    background-repeat: no-repeat;
+}
+
+/* 3) მარჯვენა ქვედა კუთხეში */
+.d_3{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+/* 4) სრულად დაფაროს div დეფორმაციის გარეშე */
+.d_4{
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* 5) სურათი მთლიანად ჩანდეს div-ში */
+.d_5{
+    background-image: url("");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

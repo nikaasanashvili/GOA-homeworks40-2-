@@ -36,7 +36,7 @@
     width: 200px;
     height: 200px;
     background-color: red;
-    translate: calc(120px 70px);
+    translate: translate(120px, 70px);
 }
 
 #d_6{
