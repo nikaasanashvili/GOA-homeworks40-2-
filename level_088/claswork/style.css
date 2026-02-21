@@ -1,0 +1,18 @@
+/* 1)შექმენით დივი,მიეცით ზომები და მიეცით უკანა ფონის ფერი,შენი დავალებაა რომ hover ზე უკანა ფონის ფერი
+ შეეცვალოს 2 წამში,სიმაღლე შეეცვალოს 3 წამში,სიგანე შეეცვალოს 1.5 წამში , გახდეს წრე 2.3 წამში , და
+  დატრიალდეს 180deg ით 6 წამში, */
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 0px;
+    transition: background-color 2s, with 1.5s, height 3s, border-radius 2.3s;
+}
+
+div:hover{
+    background-color: purple;
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
