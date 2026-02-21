@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#d_1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: background-color 1s, with 1s;
+}
+
+#d_1:hover{
+    background-color: blue;
+    width: 200px;
+}
+
+#d_2 {
+    color: red;
+    background-color: green;
+    transition: color 5s, background-color 5s;
+
+}
+
+#d_2:hover {
+    background-color: red;
+    color: yellow;
+}
+
+
