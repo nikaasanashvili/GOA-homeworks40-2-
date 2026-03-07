@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+header{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+#mze{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    animation: mze 2s infinite;
+    box-shadow: 0 0 90px yellow;
+}
+
+@keyframes mze{
+    0%{
+        box-shadow: 0 0 50px yellow;
+    }
+
+    50%{
+        box-shadow: 0 0 30px yellow;
+    }
+
+    100%{
+        box-shadow: 0 0 90px yellow;
+    }
+}
+
+#chitebi{
+    display: flex;
+    gap: 300px;
+}
+
+.chitebi{
+    display: flex;
+}
+
+.c_1{
+    width: 10px;
+    height: 30px;
+    background-color: black;
+    transform: rotate(-50deg);
+    border-radius: 50px;
+}
+
+.c_2{
+    width: 10px;
+    height: 26px;
+    background-color: black;
+    transform: rotate(50deg);
+    border-radius: 50px 50px 0px 0px;
+}
+
+main{
+    display: flex;
+    gap: 700px;
+}
+
+
+#korpusi{
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px;
+    gap: 100px;
+}
+
+.fanjrebi{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+}
+.s{
+    background-color: yellow;
+    animation: cimcimi 2s infinite;
+    animation-delay: 5s;
+}
+
+
+@keyframes cimcimi{
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+
+#img{
+    position: relative;
+    animation: tvitfrinavi 5s forwards;
+}
+
+@keyframes tvitmfrinavi{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-400px);
+    }
+}
