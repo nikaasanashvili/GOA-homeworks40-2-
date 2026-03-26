@@ -1,0 +1,147 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 200vh;
+    gap: 100px;
+}
+
+#hw_1{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 70px 70px 70px;
+    gap: 10px;
+}
+
+.d_1{
+    background-color: green;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.d_2{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.d_3{
+    background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.d_4{
+    background-color: yellow;
+    grid-row-start: 2;
+}
+
+.d_5{
+    background-color: red;
+    grid-row-start: 3;
+}
+
+.d_6{
+    background-color: red;
+    grid-row-start: 2;
+}
+
+.d_7{
+    background-color: yellow;
+    grid-row-start: 3;
+}
+
+.d_8{
+    background-color: green;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#hw_2{
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 90px 90px 90px;
+    gap: 10px;
+}
+
+.hw_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#A{
+    grid-row-start: 1;
+    background-color: rgb(0, 221, 153);
+}
+
+#B{
+    background-color: rgb(221, 153, 1);
+    grid-column-start: 2;
+}
+
+#D{
+    background-color: rgb(153, 0, 221);
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+#E{
+    background-color: rgb(221, 0, 153);
+    grid-row-start: 2;
+}
+
+#F{
+    background-color: rgb(0, 153, 221);
+    grid-row-start: 3;
+}
+
+#C{
+    background-color: rgb(153, 221, 0);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#hw_3{
+    display: grid;
+    grid-template-columns: 90px 150px 90px;
+    grid-template-rows: 90px 120px;
+    gap: 10px;
+}
+
+#hw_3_d_1{
+    background-color: rgb(0, 143, 121);
+    grid-row-start: 1;
+}
+
+#hw_3_d_2{
+    background-color: rgb(195, 74, 55);
+    grid-column-start: 2;
+}
+
+#hw_3_d_3{
+    background-color: rgb(186, 185, 16);
+    grid-column-start: 3;
+}
+
+#hw_3_d_4{
+    background-color: rgb(2, 129, 207);
+    grid-row-start: 2;
+}
+
+#hw_3_d_5{
+    background-color: rgb(227, 123, 16);
+}
+
+#hw_3_d_6{
+    background-color: rgb(132, 94, 195);
+}
