@@ -145,3 +145,49 @@ body{
 #hw_3_d_6{
     background-color: rgb(132, 94, 195);
 }
+
+
+#hw_4{
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 150px 150px 150px;
+    gap: 10px;
+}
+
+#hw_4_d_1{
+    background-color: rgb(27, 125, 155);
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#hw_4_d_2{
+    background-color: rgb(37, 219, 198);
+    grid-row-start: 3;
+}
+
+#hw_4_d_3{
+    background-color: rgb(254, 164, 0);
+}
+
+#hw_4_d_4{
+    background-color: rgb(244, 17, 101);
+    grid-row-start: 2;
+}
+
+#hw_4_d_5{
+    background-color: rgb(27, 125, 153);
+    grid-row-start: 3;
+}
+
+#hw_4_d_6{
+    background-color: rgb(27, 125, 155);
+}
+
+#hw_4_d_7{
+    background-color: rgb(37, 219, 198);
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
+
