@@ -17,3 +17,14 @@
 #     for i in str(n):
 #         lst.append(int(i))
 #     return lst
+
+
+# def has_unique_chars(string):
+#     str = ''
+#     for i in string:
+#         if i not in str:
+#             str += i
+#     if str == string:
+#         return True
+#     elif str != string:
+#         return False
