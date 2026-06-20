@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    
+}
+
+.d{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.pr{
+    color: green;
+}
+
+.mm{
+    color: red;
+}
+
+#d1{
+    border: 3px solid rgb(0, 219, 0);
+    background-color: black;
+}
+#d2{
+    background-color: black;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+
+/* tranzishenebi */
+.d{
+    width: 400px;
+    height: 500px;
+    transition: transform 0.8s;
+}
+
+
+#d1:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 50px rgb(1, 192, 1);
+}
+
+#d2:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 50px rgba(253, 43, 6, 0.881);
+}
